@@ -17,7 +17,7 @@ Para este ejemplo se utilizará el gestor de base de datos [SQLite3](https://sql
 |3|primer_apellido|varchar|50|Tipo Texto|
 |4|segundo_apellido|varchar|50|Tipo texto|
 |5|email|varchar|50|Tipo Texto|
-|1|telefono|varchar|13|Tipo Texto|
+|6|telefono|varchar|13|Tipo Texto|
 
 ## 3.2 Script
 
