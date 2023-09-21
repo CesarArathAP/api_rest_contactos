@@ -13,7 +13,7 @@ Para este ejemplo se utilizará el gestor de base de datos [SQLite3](https://sql
 |No,|Campo|Tipo|Resticciones|Descripción|
 |--|--|--|--|--|
 |1|id_contactos|int|PRIMARY KEY|Llave primaria de la tabla|
-|2|nombres|varchar|100|Tipo texto|
+|2|nombre|varchar|100|Tipo texto|
 |3|primer_apellido|varchar|50|Tipo Texto|
 |4|segundo_apellido|varchar|50|Tipo texto|
 |5|email|varchar|50|Tipo Texto|
@@ -22,4 +22,12 @@ Para este ejemplo se utilizará el gestor de base de datos [SQLite3](https://sql
 ## 3.2 Script
 
 ```sql
-CREATE TABLE ...
+CREATE TABLE contactos (
+    id_contacto INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    primer_apellido VARCHAR(50) NOT NULL,
+    segundo_apellido VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    telefono VARCHAR(13) NOT NULL
+);
+...
