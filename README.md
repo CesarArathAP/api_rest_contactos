@@ -13,3 +13,8 @@ Para este ejemplo se utilizará el gestor de base de datos [SQLite3](https://sql
 |No,|Campo|Tipo|Resticciones|Descripción|
 |--|--|--|--|--|
 |1|id_contactos|int|PRIMARY KEY|Llave primaria de la tabla|
+
+## 3.2 Script
+
+```sql
+CREATE TABLE ...
