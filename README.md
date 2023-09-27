@@ -32,3 +32,10 @@ CREATE TABLE contactos (
 );
 ```
 ## 4. Desing Document
+
+## 4.1 Metodo PUT
+
+|Propiedad|Detalle|
+|--|--|
+|Descripción|EndPoint para actualizar algun contacto de la API|
+|Summary|EndPoint para actualizar datos de los contactos|
