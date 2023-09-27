@@ -35,20 +35,20 @@ CREATE TABLE contactos (
 
 ## 4.1 Metodo PUT
 
-| Propiedad            | Detalle                                      |
-|:--------------------:|:--------------------------------------------:|
-| Descripción          | EndPoint para actualizar algún contacto de la API |
-| Summary              | EndPoint para actualizar datos de los contactos |
-| Método               | PUT                                          |
-| EndPoint             | https://localhost:8000/contactos/{id}       |
-| Query Param          | NA                                           |
-| Path Param           | 'id''int'                                    |
-| Data                 | {"id_contacto","123", "nombre":"Dejahn", "primer_apellido":"Lopez", "segundo_apellido":"Perez", "email":"dejahn@gmail.com", "telefono":"123456789"} |
-| Versión              | V1                                           |
-| Status Code          | 200 OK                                       |
-| Response Type        | application/json                             |
-| Response             | {"version":"v1", "mensaje":"contacto_actualizado", "datatime": "25/09/23 17:16:15"} |
-| Curl                 | curl -X PUT https://localhost:8000/contacto/{id} -H accept:application/json -d {data: Jonth} |
-| Status Code (error)  | 400 Bad Request                              |
-| Response Type(error) | JSON                                         |
-| Response (error)     | {"error":"Dato Invalido"}                   |
+|Propiedad|Detalle|
+|--|--|
+|Descripción|EndPoint para actualizar algun contacto de la API|
+|Summary|EndPoint para actualizar datos de los contactos|
+|Metodo|PUT|
+|EndPoint|https://localhost:8000/contactos/{id}|
+|Query Param|NA|
+|Path Param|'id''int'|
+|Data|{"id_contacto","123", "nombre":"Dejahn", "primer_apellido":"Lopez", "segundo_apellido":"Perez", "email":"dejahn@gmail.com", "telefono":"123456789"}|
+|Versión|V1|
+|Status Code|200 OK|
+|Response Type|application/json|
+|Response|{"version":"v1", "mensaje":"contacto_actualizado", "datatime": "25/09/23 17:16:15"}|
+|Curl|curl -X PUT https://localhost:8000/contacto/{id} -H accept:application/json -d {data: Jonth}|
+|Status Code (error)|400 Bad Raquest|
+|Response Type(error)|JSON|
+|Response (error)|{"error":"Dato Invalido"}|
