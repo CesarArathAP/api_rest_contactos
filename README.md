@@ -30,4 +30,3 @@ CREATE TABLE contactos (
     email VARCHAR(50) NOT NULL,
     telefono VARCHAR(13) NOT NULL
 );
-...
