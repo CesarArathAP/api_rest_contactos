@@ -17,7 +17,7 @@ async def contactos():
             for row in reader:
                 contactos.append({"nombre": row["nombre"], "email": row["email"]})
     except FileNotFoundError:
-        return {"error": "El archivo CSV no se encuentra"}
+        return {"error": "No conozco ese archivo padrino DX"}
 
     response = { "contactos": contactos}
     return response
