@@ -60,11 +60,11 @@ async def crear_contacto(nombre: str, email: str):
     """ 
         ## Aquí guardar el nuevo contacto en contactos.csv 
     """
-    guardar_contacto_en_csv(nuevo_contacto)
+    guardar_contacto(nuevo_contacto)
 
     return {"message": "Contacto creado exitosamente"}
 
-def guardar_contacto_en_csv(contacto):
+def guardar_contacto(contacto):
     """
     Guardar un contacto en el archivo CSV.
     """
