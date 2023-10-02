@@ -8,6 +8,7 @@ app = FastAPI()
 contactos = []
 
 """
+
     Ruta al archivo CSV
 """
 archivo_csv = "contactos.csv"
