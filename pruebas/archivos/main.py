@@ -6,7 +6,6 @@ from typing import List
 
 app = FastAPI()
 
-# Monta el directorio "static" para servir archivos estáticos
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.post("/files/")

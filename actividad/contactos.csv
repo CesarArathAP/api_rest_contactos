@@ -1,0 +1,3 @@
+id_contacto,nombre,primer_apellido,segundo_apellido,email,telefono
+1,Juan,Perez,Lopez,juan@example.com,123-456-7890
+2,Maria,Gomez,Rodriguez,maria@example.com,987-654-3210
